@@ -1,0 +1,200 @@
+body {
+    font-family: Montserrat;
+}
+
+.text_head {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #2D2A2A;
+    text-align: center;
+}
+
+.about-prof-prof {
+    width: 100%;
+}
+
+.about-prof__head {
+    margin: 73px 0 57px 0;
+}
+
+.text-normal {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.text_bold {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 134.4%;
+}
+
+.about-prof__text {
+    margin: 0 0 35px 0;
+}
+
+li {
+    margin: 0;
+    padding: 6px 0 6px 18px;
+    list-style: none;
+    background-image: url("https://eduexp.ru/wp-content/uploads/2021/12/ul_exp.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 14px;
+}
+
+.about-prof__wrap-list {
+    margin-bottom: 38px;
+}
+
+.about-prof__bloc_yellow {
+    background-color: #FAFF01;
+    padding: 44px;
+    box-shadow: 0px 0px 20px rgba(45, 45, 40, 0.15);
+    margin-bottom: 48px;
+}
+
+.about-prof__text_bloc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.about-course__bloc_yellow {
+    background-color: #FAFF01;
+    height: 45px;
+}
+
+.about-course__circle {
+    width: 70px;
+    height: 70px;
+    background-color: #FAFF01;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -45px;
+}
+
+.about-course__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 27px 0 43px 0;
+}
+
+.about-course__text_2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #000000;
+    width: 184px;
+    margin: auto;
+}
+
+.about-course__text_3 {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 26px;
+}
+
+.about-course__col_1,
+.about-course__col_2,
+.about-course__col_3,
+.about-course__col_4 {
+    height: 274px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.about-course__bloc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-course__bloc {
+    margin-bottom: 120px;
+}
+
+.about-course__head {
+    margin: 88px 0 69px 0;
+}
+
+.for-whom__wrap {
+    width: 78%;
+    margin: auto;
+}
+
+.for-whom__head {
+    margin: 120px 0 60px 0;
+}
+
+.for-whom__head_2 {
+    width: 184px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.for-whom__wrap-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+.for-whom__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-styding__head {
+    margin: 124px 0 63px 0;
+}
+
+.how-styding__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-styding__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.how-styding__wrap-col {
+    display: flex;
+    justify-content: space-between;
+    max-width: 98%;
+    margin: auto;
+}
+
+.how-styding__col_arrow {
+    margin: auto;
+}
