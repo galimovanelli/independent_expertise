@@ -2,6 +2,15 @@ body {
     font-family: Montserrat;
 }
 
+table tr {
+    border: 1px solid transparent;
+}
+
+table td,
+table th {
+    padding: 0;
+}
+
 .text_head {
     font-style: normal;
     font-weight: 800;
@@ -26,6 +35,7 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: #000000;
+    text-indent: 20px;
 }
 
 .text_bold {
@@ -38,7 +48,8 @@ body {
     margin: 0 0 35px 0;
 }
 
-li {
+
+/* li {
     margin: 0;
     padding: 6px 0 6px 18px;
     list-style: none;
@@ -46,7 +57,7 @@ li {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 14px;
-}
+} */
 
 .about-prof__wrap-list {
     margin-bottom: 38px;
@@ -72,6 +83,26 @@ li {
     height: 45px;
 }
 
+.about-prof__text_bloc {
+    text-indent: 0px;
+}
+
+.about-prof__li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    padding: 6px 0 6px 18px;
+    list-style: none;
+    background-image: url("https://eduexp.ru/wp-content/uploads/2021/12/ul_exp.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 14px;
+}
+
 .about-course__circle {
     width: 70px;
     height: 70px;
@@ -92,7 +123,7 @@ li {
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    padding: 27px 0 43px 0;
+    padding: 27px 0 23px 0;
 }
 
 .about-course__text_2 {
@@ -103,7 +134,7 @@ li {
     text-align: center;
     text-transform: lowercase;
     color: #000000;
-    width: 184px;
+    width: 182px;
     margin: auto;
 }
 
@@ -126,6 +157,12 @@ li {
 .about-course__bloc {
     display: flex;
     justify-content: space-between;
+}
+
+.about-course__wrap-col {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .about-course__bloc {
@@ -154,6 +191,7 @@ li {
     line-height: 22px;
     text-align: center;
     color: #000000;
+    padding-top: 23px;
 }
 
 .for-whom__wrap-item {
@@ -186,6 +224,7 @@ li {
     line-height: 22px;
     text-align: center;
     color: #000000;
+    padding-top: 26px;
 }
 
 .how-styding__wrap-col {
@@ -197,4 +236,290 @@ li {
 
 .how-styding__col_arrow {
     margin: auto;
+    width: 18%;
+}
+
+.how-styding__col_arrow>img {
+    width: 37px;
+}
+
+.what-will-you-learn__head {
+    margin: 109px 0 99px 0;
+}
+
+.what-will-you-learn__item {
+    display: flex;
+    align-items: center;
+    margin: 0 0 35px 0;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.what-will-you-learn__item>img {
+    height: 6px;
+}
+
+.what-will-you-learn__bloc {
+    background: #1C1919;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 26px 18px;
+    width: 430px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.why-study__head {
+    padding: 108px 0 88px 0;
+    width: 385px;
+    margin: auto;
+}
+
+.why-study__wrap-col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-study__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-study__text {
+    text-align: center;
+    width: 184px;
+    margin-top: 38px;
+}
+
+.how-to-buy__head {
+    padding: 124px 00 66px 0;
+    width: 385px;
+    margin: auto;
+}
+
+.how-to-buy__td {
+    background: url(https://eduexp.ru/wp-content/uploads/2021/12/item_line.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+    vertical-align: top;
+}
+
+.how-to-buy__wrap {
+    width: 80%;
+    margin: auto;
+}
+
+.how-to-buy__td_text {
+    padding: 0 0 35px 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.none {
+    background: none;
+}
+
+.how-to-buy__table {
+    padding: 0 0 137px 0;
+}
+
+@media (max-width: 768px) {
+    .text_head {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .about-prof__text {
+        margin: 0 0 17px 0;
+    }
+    .about-prof__text::nth-child(2) {
+        margin-bottom: 28px;
+    }
+    .text-normal {
+        font-size: 10px;
+        line-height: 134.9%;
+    }
+    .about-prof-prof__wrap {
+        padding: 0 30px;
+        margin: auto;
+    }
+    .text_bold {
+        font-size: 10px;
+        line-height: 134.4%;
+    }
+    .about-prof__wrap-list {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .about-prof__bloc_yellow {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 13px 36px;
+        margin: 0 0 29px 0;
+    }
+    .about-prof__li {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .about-course__img>img {
+        width: 18px;
+    }
+    .about-course__head.text_head {
+        margin: 37px 0 29px 0;
+    }
+    .about-course__text {
+        font-size: 8px;
+        line-height: 10px;
+        padding: 13px 0 16px 0;
+    }
+    .about-course__text_2 {
+        font-size: 8px;
+        line-height: 10px;
+        width: 109px;
+    }
+    .about-course__text_3 {
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 20px;
+    }
+    .about-course__bloc {
+        flex-direction: column;
+    }
+    .about-course__col_1,
+    .about-course__col_2,
+    .about-course__col_3,
+    .about-course__col_4 {
+        height: 161px;
+        width: 50%;
+    }
+    .about-course__bloc_yellow {
+        height: 29px;
+    }
+    .about-course__circle {
+        width: 42px;
+        height: 42px;
+        margin-top: -29px;
+    }
+    .for-whom__head.text_head {
+        margin: 46px 0 33px 0;
+    }
+    .for-whom__wrap-item {
+        flex-direction: column;
+        margin-bottom: 42px;
+    }
+    .for-whom__item {
+        padding: 0 0 33px 0;
+    }
+    .for-whom__item>img {
+        width: 84px;
+    }
+    .for-whom__head_2 {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 13px 0 0 0;
+    }
+    .for-whom__item:nth-last-child(1) {
+        padding: 0;
+    }
+    .how-styding__head.text_head {
+        margin: 42px 0 42px 0;
+    }
+    .how-styding__wrap-col {
+        flex-direction: column;
+    }
+    .how-styding__col {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .how-styding__wrap-col {
+        width: 72%;
+    }
+    .how-styding__text {
+        width: 160px;
+        font-size: 10px;
+        line-height: 12px;
+        padding: 0 0 0 18px;
+    }
+    .how-styding__col>img {
+        width: 29px;
+    }
+    .how-styding__col_arrow>img {
+        width: 22px;
+        transform: rotate( 90deg);
+    }
+    .how-styding__col_arrow {
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+    .what-will-you-learn__head.text_head {
+        margin: 42px 0 42px 0;
+    }
+    .what-will-you-learn__bloc {
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 10px;
+        padding: 0;
+        width: 184px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .what-will-you-learn__item>img {
+        height: 6px;
+        width: 29px;
+    }
+    .why-study__head {
+        padding: 41px 0 42px 0;
+        width: 201px;
+        margin: auto;
+    }
+    .why-study__wrap-col {
+        flex-direction: column;
+    }
+    .why-study__col {
+        padding: 0 0 33px 0;
+    }
+    .why-study__img>img {
+        width: 29px;
+    }
+    .why-study__text {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 22px 0 0 0;
+        width: 135px;
+    }
+    .why-study__col:nth-last-child(1) {
+        padding: 0;
+    }
+    .how-to-buy__head.text_head {
+        padding: 42px 0 38px 0;
+        width: 230px;
+        margin: auto;
+    }
+    td.how-to-buy__td>img {
+        width: 26px;
+    }
+    td.how-to-buy__td {
+        width: 26px;
+    }
+    .how-to-buy__td_text {
+        font-size: 8px;
+        line-height: 13px;
+        padding-left: 13px;
+    }
+    .how-to-buy__table {
+        padding: 0 0 20px 0;
+    }
 }
