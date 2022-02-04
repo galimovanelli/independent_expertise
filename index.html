@@ -9,13 +9,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Oswald:wght@500&display=swap" rel="stylesheet">
     <style>
 
     </style>
 </head>
 
 <body>
+    <div>
+        <a id='top'></a>
+    </div>
     <div class="wrap">
         <div class="about-prof-prof">
             <div class="about-prof-prof__wrap">
@@ -50,7 +53,7 @@
                             </div>
                         </div>
                         <div class="about-course__text">Количество часов</div>
-                        <div class="about-course__text_2">512 часов</div>
+                        <div class="about-course__text_2">516 часов</div>
                     </div>
                     <div class="about-course__col_2">
                         <div class="about-course__bloc_yellow"></div>
@@ -61,7 +64,18 @@
                         </div>
                         <div class="about-course__text">Выдаваемый документ</div>
                         <div class="about-course__text_2">Диплом о профессиональной переподготовке</div>
-                        <div class="about-course__text_3">Смотреть образец</div>
+                        <a class="about-course__a" href="#openModal">
+                            <div class="about-course__text_3">Смотреть образец</div>
+                        </a>
+                        <div id="openModal" class="modalDialog">
+                            <div>
+                                <a href="#close" title="Закрыть" class="close">X</a>
+                                <div class="modal__img">
+                                    <img src="https://eduexp.ru/wp-content/uploads/2021/12/diplom_avtoexp.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="about-course__wrap-col">
@@ -177,7 +191,7 @@
                         <div class="why-study__img">
                             <img src="https://eduexp.ru/wp-content/uploads/2021/12/Timesheet.png" alt="">
                         </div>
-                        <div class="why-study__text">Опыт образовательной деятельности <span class="text_bold">12 лет</span> </div>
+                        <div class="why-study__text">Опыт образовательной деятельности <br> <span class="text_bold">12 лет</span> </div>
                     </div>
                     <div class="why-study__col">
                         <div class="why-study__img">
@@ -236,6 +250,11 @@
                 </table>
             </div>
         </div>
+    </div>
+    <div class="btn-top">
+        <a href="#header" class="idTop">
+            <img src="https://eduexp.ru/wp-content/uploads/2021/12/arr_top.png" alt="">
+        </a>
     </div>
 </body>
 
