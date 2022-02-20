@@ -174,7 +174,8 @@ table th {
 }
 
 .about-course__modal:target {
-    display: block;
+    display: flex;
+    align-items: center;
     pointer-events: auto;
 }
 
